@@ -1,0 +1,32 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 1000px;
+    background-color: rgb(223, 150, 150);
+}
+.row {
+    height: 1000px;
+    background-color: rgb(240, 145, 164);
+}
+.col-lg-8 {
+    height: 200px;
+    background-color: rgb(240, 202, 202);
+}
+.col-lg-4 {
+    height: 100px;
+    background-color: rgb(185, 211, 233);
+}
+.flex {
+    gap: 40px;
+}
+
+.flex .col-lg-3 {
+    background-color: rgb(191, 192, 245);
+    height: 400px;
+}
